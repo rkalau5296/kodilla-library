@@ -24,7 +24,7 @@ public class Specimen {
 
     @NotNull
     @Column(name = "titleId")
-    private String titleId;
+    private Long titleId;
 
     @Column(name = "status")
     private String status;
